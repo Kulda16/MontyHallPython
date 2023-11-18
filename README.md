@@ -52,6 +52,18 @@ int_fig`.
 
 ## Starting the application in Docker
 
+To start the container you need to start the `Docker desktop` first. In the same terminal as you are
+working in this directory, run the following command to build and tag the container:
+
+`docker build -t monty-hall:latest .`.
+
+You can easily list and find the container:
+`docker ps -a`.
+
+Now just simply run it with this command and access the bash terminal inside the container:
+
+`docker run -it monty-hall bash`.
+
 ## Contributing and the future work
 
 In the `docs` directory you can find two documents. The first one is for operations, how to use the application. 
