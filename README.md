@@ -14,7 +14,7 @@ To clone the repository using HTTPS or SSH, run one of the following commands be
 
 `git clone https://github.com/Kulda16/MontyHallPython.git`,
 
-`git@github.com:Kulda16/MontyHallPython.git`.
+`git clone git@github.com:Kulda16/MontyHallPython.git`.
 
 Make sure you are in cloned repository (and create) and activate the virtual environment:
 
