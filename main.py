@@ -26,7 +26,7 @@ if __name__ == "__main__":
         x = monty_hall_game(args.switch, args.num_simulations, args.show_logs)
         game_statistics(x)
         plot_monty_hall(args.switch, args.num_simulations, fileformat="pdf")
-        print(f"Soubor byl uložen ve formátu .pdf v kořenové složce 'outputs'.")
+        print(f"The file has been saved in .pdf format in 'outputs' root directory.")
     else:
         x = monty_hall_game(args.switch, args.num_simulations, args.show_logs)
         game_statistics(x)
